@@ -112,7 +112,7 @@ int main()
     Fighter* ptr2 = new F_Mage(800, 500, 0);
 
     ptr1->burn();
-    std::cout << "----------------------------" << std::endl;
+    std::cout << "------------------------------" << std::endl;
     ptr2->burn();
 
     delete ptr1;
